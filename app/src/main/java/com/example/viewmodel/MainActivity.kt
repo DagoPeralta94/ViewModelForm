@@ -23,9 +23,9 @@ class MainActivity : AppCompatActivity() {
 
     fun saveInformation() {
         with(binding) {
-            txView.text = viewModel.getCurrentInformation()
+            txView2.text = viewModel.getCurrentInformation()
             btSend.setOnClickListener {
-                txView.text = viewModel.getTxtInformation("${etDocument.text}", "${etAge.text}")
+                txView2.text = viewModel.getTxtInformation("${etDocument.text}", "${etAge.text}")
             }
         }
     }

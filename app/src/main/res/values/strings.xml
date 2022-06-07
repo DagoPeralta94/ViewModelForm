@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ViewModel</string>
+    <string name="informatio_view">Visualización</string>
 </resources>
