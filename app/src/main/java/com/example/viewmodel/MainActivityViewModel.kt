@@ -10,8 +10,8 @@ class MainActivityViewModel : ViewModel() {
         return txtInformation
     }
 
-    fun getTxtInformation(name: String, age:String): String{
-        txtInformation = "El texto es $name y la edad es $age"
+    fun getTxtInformation(name: String, lastname:String, phone:String, document:String, age:String): String{
+        txtInformation = "El Nombre es $name, el Apellido es $lastname, el telefono es $phone, el documento es $document y la edad es $age"
         return txtInformation
     }
 }

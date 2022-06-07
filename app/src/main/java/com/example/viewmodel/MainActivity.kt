@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         with(binding) {
             txView2.text = viewModel.getCurrentInformation()
             btSend.setOnClickListener {
-                txView2.text = viewModel.getTxtInformation("${etDocument.text}", "${etAge.text}")
+                txView2.text = viewModel.getTxtInformation("${etName.text}", "${etLastname.text}","${etPhone.text}", "${etDocument.text}", "${etAge.text}")
             }
         }
     }
